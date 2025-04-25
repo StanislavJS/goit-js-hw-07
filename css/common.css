@@ -141,3 +141,18 @@ button:hover,
 button:focus {
   background-color: var(--hover-btn);
 }
+
+.widget {
+  text-align: center;
+}
+
+.widget > p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--txt-color);
+}
