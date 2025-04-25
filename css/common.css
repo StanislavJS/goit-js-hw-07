@@ -76,3 +76,68 @@ h2 {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
 }
+
+input,
+#categories > .item li {
+  display: block;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+
+  border: 1px solid var(--border-inp);
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: var(--txt-color);
+}
+
+input::placeholder {
+  color: var(--txt-color);
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #000;
+  outline: transparent;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: var(--txt-color);
+}
+
+label:last-of-type {
+  margin-bottom: 16px;
+}
+
+.login-form input {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: var(--bg-color-btn);
+  border: transparent;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--text-btn);
+  cursor: pointer;
+  outline: transparent;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--hover-btn);
+}
